@@ -2,11 +2,10 @@
 # @Time    : 2/13/2018 10:01 AM
 # @FileName: main.py
 
-from TwoSum import Solution
-from longestPalindrome import Solution
-from ReverseInteger import Solution
+from AddDigits import *
 
 
 if __name__ == '__main__':
     mySolution = Solution()
-    print(mySolution.reverse(120))
+    print(mySolution.addDigits(1234))
+
