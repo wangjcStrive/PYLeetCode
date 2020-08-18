@@ -37,12 +37,29 @@ class Solution:
                 result = result + "/" + stack[i]
             return result
 
+    def simplifyPath_1(self, path: str) -> str:
+        r = []
+        for s in path.split('/'):
+            r = {'': r, '.': r, '..': r[:-1]}.get(s, r + [s])
+        return '/' + '/'.join(r)
+
+    def simplifyPath_2(self, path: str) -> str:
+        stack = []
+        path = path.split("/")
+
+        for item in path:
+            if item == "..":
+                if stack: stack.pop()
+            elif item and item != ".":
+                stack.append(item)
+        return "/" + "/".join(stack)
+
 
 if __name__ == '__main__':
     input = [
+        "/a//b////c/d//././/..",
         '/..',
         "/",
-        "/a//b////c/d//././/..",
         "/home/.../abc/xyz",
         "/a/.",
         "/../",
@@ -55,4 +72,4 @@ if __name__ == '__main__':
     ]
     ins = Solution()
     for path in input:
-        print(ins.simplifyPath(path))
+        print(ins.simplifyPath_1(path))
