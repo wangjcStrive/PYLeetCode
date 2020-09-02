@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0588ad71-ba60-4760-bf37-de51e8a70e67" name="Default" comment="42. Trapping Rain Water - DP/pointer/stack(not done!)">
-      <change afterPath="$PROJECT_DIR$/Stack/LargestRectangleInHistogram_84.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/ValidParentheses_20.py" afterDir="false" />
+    <list default="true" id="0588ad71-ba60-4760-bf37-de51e8a70e67" name="Default" comment="update">
+      <change afterPath="$PROJECT_DIR$/Stack/DecodeString_394.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/TrappingRainWater_42.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,7 @@
       <recent name="C:\Users\jicwang\Documents\Study\Code\LCode\" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ValidParentheses_20">
+  <component name="RunManager" selected="Python.DecodeString_394">
     <configuration name="AllSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,6 +89,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="DecodeString_394" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stack/DecodeString_394.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="LargestRectangleInHistogram_84" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,27 +123,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stack/LargestRectangleInHistogram_84.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SimplifyPath" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stack" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stack/SimplifyPath.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,19 +174,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.SimplifyPath" />
       <item itemvalue="Python.AllSort" />
       <item itemvalue="Python.TrappingRainWater_42" />
       <item itemvalue="Python.LargestRectangleInHistogram_84" />
       <item itemvalue="Python.ValidParentheses_20" />
+      <item itemvalue="Python.DecodeString_394" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DecodeString_394" />
         <item itemvalue="Python.ValidParentheses_20" />
         <item itemvalue="Python.LargestRectangleInHistogram_84" />
         <item itemvalue="Python.TrappingRainWater_42" />
         <item itemvalue="Python.AllSort" />
-        <item itemvalue="Python.SimplifyPath" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597744623653</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1598600625612</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598600625612</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -260,45 +265,64 @@
     <MESSAGE value="67. add binary" />
     <MESSAGE value="just commit new added files" />
     <MESSAGE value="42. Trapping Rain Water - DP/pointer/stack(not done!)" />
-    <option name="LAST_COMMIT_MESSAGE" value="42. Trapping Rain Water - DP/pointer/stack(not done!)" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="668" y="210" key="CommitChangelistDialog2" timestamp="1597744617369">
-      <screen x="62" y="0" width="1858" height="1080" />
+    <state x="606" y="210" key="CommitChangelistDialog2" timestamp="1598600618532">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
+    <state x="606" y="210" key="CommitChangelistDialog2/0.0.1858.1080@0.0.1858.1080" timestamp="1598600618532" />
     <state x="668" y="210" key="CommitChangelistDialog2/62.0.1858.1080@62.0.1858.1080" timestamp="1597744617369" />
     <state x="0" y="179" key="DiffContextDialog" timestamp="1597730185247">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="0" y="179" key="DiffContextDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1597730185247" />
-    <state width="983" height="153" key="GridCell.Tab.0.bottom" timestamp="1598595367249">
+    <state width="1169" height="167" key="GridCell.Tab.0.bottom" timestamp="1599029840571">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="983" height="153" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1598595367249" />
+    <state width="1169" height="167" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1599029840571" />
     <state width="983" height="153" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1597911795189" />
-    <state width="983" height="153" key="GridCell.Tab.0.center" timestamp="1598595367249">
+    <state width="1169" height="167" key="GridCell.Tab.0.center" timestamp="1599029840571">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="983" height="153" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1598595367249" />
+    <state width="1169" height="167" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1599029840571" />
     <state width="983" height="153" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1597911795189" />
-    <state width="983" height="153" key="GridCell.Tab.0.left" timestamp="1598595367249">
+    <state width="1169" height="167" key="GridCell.Tab.0.left" timestamp="1599029840571">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="983" height="153" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1598595367249" />
+    <state width="1169" height="167" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1599029840571" />
     <state width="983" height="153" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1597911795189" />
-    <state width="983" height="153" key="GridCell.Tab.0.right" timestamp="1598595367249">
+    <state width="1169" height="167" key="GridCell.Tab.0.right" timestamp="1599029840571">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="983" height="153" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1598595367249" />
+    <state width="1169" height="167" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1599029840571" />
     <state width="983" height="153" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1597911795189" />
+    <state width="983" height="239" key="GridCell.Tab.1.bottom" timestamp="1599027186654">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="983" height="239" key="GridCell.Tab.1.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1599027186654" />
+    <state width="983" height="239" key="GridCell.Tab.1.center" timestamp="1599027186654">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="983" height="239" key="GridCell.Tab.1.center/0.0.1858.1080@0.0.1858.1080" timestamp="1599027186654" />
+    <state width="983" height="239" key="GridCell.Tab.1.left" timestamp="1599027186653">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="983" height="239" key="GridCell.Tab.1.left/0.0.1858.1080@0.0.1858.1080" timestamp="1599027186653" />
+    <state width="983" height="239" key="GridCell.Tab.1.right" timestamp="1599027186654">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="983" height="239" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1599027186654" />
     <state x="664" y="265" key="SettingsEditor" timestamp="1598430263260">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="664" y="265" key="SettingsEditor/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1598430263260" />
     <state x="726" y="265" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1597732409767" />
-    <state x="884" y="259" key="Vcs.Push.Dialog.v2" timestamp="1597744625519">
-      <screen x="62" y="0" width="1858" height="1080" />
+    <state x="822" y="259" key="Vcs.Push.Dialog.v2" timestamp="1598600628022">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
+    <state x="822" y="259" key="Vcs.Push.Dialog.v2/0.0.1858.1080@0.0.1858.1080" timestamp="1598600628022" />
     <state x="884" y="259" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1597744625519" />
     <state x="902" y="293" width="629" height="520" key="find.popup" timestamp="1598492017333">
       <screen x="0" y="0" width="1858" height="1080" />
@@ -331,28 +355,8 @@
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="path.split('/')" language="Python" />
+        <watch expression="s" language="Python" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="breakpointCondition">
-      <expression>
-        <expression-string>i=1</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="watch">
-      <expression>
-        <expression-string>path.split('/')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>path[i]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>
